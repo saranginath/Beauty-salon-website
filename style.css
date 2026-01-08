@@ -1,0 +1,172 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: pink;
+    color: #fff;
+    padding-bottom: 50px;
+    background-image: url("./photo-1604654894610-df63bc536371.avif"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #fff;
+    color: #ff6f61;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Services */
+#services {
+    padding: 50px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+#services h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url("./photo-1619607146034-5a05296c8f9a.avif"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+}
+
+/* About */
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact input, 
+#contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6f61;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background: #ff3b2f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
